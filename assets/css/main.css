@@ -69,6 +69,7 @@ main .overlay {
 	flex-direction:column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 	font-family: 'Open Sans';
 	color:#FFF;
 }
@@ -87,7 +88,7 @@ main .overlay h1 {
 .introMain .smallHeading {
 	margin:0px;
 	font-weight: 700;
-	font-size:25px;
+	font-size:30px;
 }
 
 .introMain .headingIntro {
@@ -98,7 +99,7 @@ main .overlay h1 {
 
 .introMain .learnMore {
 	cursor:pointer;
-	margin:20px 30px 0px 0px;
+	margin:20px 40px 0px 0px;
 	padding: 10px;
 	width:170px;
 	background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
@@ -108,7 +109,7 @@ main .overlay h1 {
 	color:white;
 	font-family: 'Open Sans';
 	font-size:1.1em;
-	border:1px solid white;
+	border:2px solid white;
 	transition: .5s;
 }
 
@@ -116,4 +117,23 @@ main .overlay h1 {
 	background-color:#A1C6D9;
 	border-color:#A1C6D9;
 	color:white;
+}
+
+.overlay i {
+	position: absolute;
+	bottom:0;
+	cursor: pointer;
+	margin:0px 50px 70px 0px;
+	width:62px;
+	height:62px;
+	font-size:4em;
+	border:1px solid white;
+	border-radius:50%;
+	transition: .5s;
+}
+
+.overlay i:hover {
+	background-color:#A1C6D9;
+	border-color:#A1C6D9;
+	transition:.5s;
 }
